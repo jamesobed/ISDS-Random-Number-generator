@@ -185,7 +185,6 @@ field {
     font-size: 15px;
   }
   #container {
-    display: flex;
     justify-content: space-evenly;
   }
   #boxCount {
