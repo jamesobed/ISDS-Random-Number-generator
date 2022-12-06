@@ -112,13 +112,15 @@ field {
   /* width: 94%; */
   padding: 0, 32%;
   position: absolute;
-  bottom: 0;
+  top: 0;
+  display: none;
 }
 
 /* media querry for various screen */
 
 @media screen and (max-width: 1600px) {
-    .alert-error {
+  .alert-error {
+    display: block;
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 600;
@@ -133,6 +135,7 @@ field {
     height: 80px;
   }
   .alert-error {
+    display: block;
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 500;
