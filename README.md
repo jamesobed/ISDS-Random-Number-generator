@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# ISDS Assessment React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Random Number Generator App
 
-In the project directory, you can run:
+In the project directory, you can generate a random by entering a minimum and a maximum number:
+Minimum number must be a positive number
+Maximum number must be a greater than zero
 
 ### `npm start`
 
