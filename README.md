@@ -9,7 +9,7 @@ Minimum number must be a positive number
 Maximum number must be a greater than zero
 
 The app is hosted on.\
-Open [https://isds-random-number-generator-by-james.netlify.app/](http://localhost:3000) to view it in the browser.
+Open [https://isds-random-number-generator-by-james.netlify.app/](https://isds-random-number-generator-by-james.netlify.app/) to view it in the browser.
 
 ### `npm start`
 
