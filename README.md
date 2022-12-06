@@ -8,6 +8,9 @@ In the project directory, you can generate a random by entering a minimum and a 
 Minimum number must be a positive number
 Maximum number must be a greater than zero
 
+The app is hosted on.\
+Open [https://isds-random-number-generator-by-james.netlify.app/](http://localhost:3000) to view it in the browser.
+
 ### `npm start`
 
 Runs the app in the development mode.\
