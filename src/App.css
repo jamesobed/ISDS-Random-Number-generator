@@ -109,18 +109,35 @@ field {
   font-size: 20px;
   font-weight: 600;
   margin: 0;
-  padding: 0;
+  /* width: 94%; */
+  padding: 0, 32%;
   position: absolute;
-  top: 80%;
+  top: 86%;
 }
 
 /* media querry for various screen */
 
+@media screen and (max-width: 1600px) {
+    .alert-error {
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0, 3%;
+    top: 74%;
+  }
+}
 @media screen and (max-width: 768px) {
   .random__container-input input {
     margin: 2%;
     width: 50%;
     height: 80px;
+  }
+  .alert-error {
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0, 3%;
+    top: 70%;
   }
   .random__container-input {
     display: flex;
