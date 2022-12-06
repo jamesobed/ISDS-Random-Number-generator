@@ -112,7 +112,7 @@ field {
   /* width: 94%; */
   padding: 0, 32%;
   position: absolute;
-  bottom: 2%;
+  bottom: 0;
 }
 
 /* media querry for various screen */
