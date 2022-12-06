@@ -71,7 +71,7 @@ field {
 }
 
 #container {
-  display: flex;
+  display: block;
   justify-content: space-evenly;
 }
 
@@ -111,8 +111,8 @@ field {
   margin: 0;
   /* width: 94%; */
   padding: 0, 32%;
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  top: 90%;
   display: none;
 }
 
@@ -124,8 +124,7 @@ field {
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 600;
-    padding: 0, 3%;
-    top: 74%;
+    padding: 3%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -135,12 +134,10 @@ field {
     height: 80px;
   }
   .alert-error {
-    display: block;
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 500;
     padding: 0, 3%;
-    top: 70%;
   }
   .random__container-input {
     display: flex;
