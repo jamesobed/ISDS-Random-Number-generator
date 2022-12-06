@@ -41,14 +41,6 @@ const Random = () => {
 
   return (
     <div className="random" id="container">
-      {isError && (
-        <>
-          <div className="alert-error">
-            Minimum number must be positive and maximum number must be greater than 1
-          </div>
-          <Toast />
-        </>
-      )}
       <div className="random__container">
         <ShowRandom count={count} />
         <div className="random__container-input">
@@ -81,6 +73,15 @@ const Random = () => {
         </div>
         <RandomBtn randomHandler={handleRandom} />
       </div>
+      {isError && (
+        <>
+          <div className="alert-error">
+            Minimum number must be positive and maximum number must be greater
+            than 1
+          </div>
+          <Toast />
+        </>
+      )}
     </div>
   );
 };
